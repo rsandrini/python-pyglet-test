@@ -6,11 +6,10 @@ window = pyglet.window.Window()
 
 @window.event
 def on_draw():
-    window.clear()
+    glClear(GL_COLOR_BUFFER_BIT)
+    glBegin(GL_LINES)
+    glVertex2i(0,  window.width)
+    glEnd()
 
-
-@window.event
-def on_key_ppress(symbol, modifiers):
-    print 'A key was pressed'
 
 pyglet.app.run()
