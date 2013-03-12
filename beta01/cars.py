@@ -1,12 +1,14 @@
 import pyglet
 from pyglet.gl import *
+from pyglet.window import mouse, key
+
 
 window = pyglet.window.Window(800, 600)
-
+grid = False
 
 def loading_grid(width=None, height=None):
-    grid = []
-    x, y  = 0, 0 
+    factor = 16
+    x, y  = 0, 0
     if not width and not height:
         xMax = window.width
         yMax = window.height
@@ -15,42 +17,35 @@ def loading_grid(width=None, height=None):
         yMax = height
 
     while x <= xMax:
-      	grid.append({x, 0, x, xMax})
-        x += 8
-    
+        print 'X:%s' % x
+        x += factor
+        glBegin(GL_LINES)
+        glVertex2i(x, 0)
+        glVertex2i(x, window.height)
+        glEnd()
+
     while y <= yMax:
-        grid.append({y, 0, y, yMax})
-        y += 8
-    return grid
+        print 'Y:%s' % y
+        y += factor
+        glBegin(GL_LINES)
+        glVertex2i(0, y)
+        glVertex2i(window.width, y)
+        glEnd()
 
 
-def draw_grid():
-    grid = loading_grid()
-    print grid
-    '''
-    try:
-        for i in grid:
-            print i
-            txMin = i.pop()
-            txMax = i.pop()
-            tyMin = i.pop()
-            tyMax = i.pop()
-	    
-	    if tX and tY:
-                glBegin(GL_LINES)
-                glVertex2i(txMin, txMax)        
-		glVertex2i(tyMin, txMax)
-                glEnd() 
-    except KeyError:
-
-        print 'KeyError'
-        pass
-    '''
+@window.event
+def on_key_press(symbol, modifiers):
+    if symbol == key.G:
+        if grid:
+            grid = False
+        else:
+            grid = True
 
 @window.event
 def on_draw():
     glClear(GL_COLOR_BUFFER_BIT)
-    draw_grid()
+    if grid:
+        loading_grid()
 
 pyglet.app.run()
 
