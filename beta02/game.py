@@ -1,14 +1,19 @@
-import pyglet
+from pyglet import clock, font, image, window
 from pyglet.gl import *
 from hero import *
+
+fps = pyglet.clock.ClockDisplay()
 
 class Game:
     grid = False
     heroes = []
+    dt = None
+    window = None
 
-    def __init__(self):
+    def __init__(self, window):
         self.grid = False
         self.heroes.append(Hero())
+	self.window = window
 
     def show_grid(self, xMax, yMax):
         factor = 16
@@ -28,11 +33,27 @@ class Game:
             glVertex2i(xMax, y)
             glEnd()
 
-    def update(self):
-        print 'updating'
-        for x in heroes:
-            x.update()
+    def update(self, dt):
+        self.dt = dt
+        for i in self.heroes:
+            i.update(dt)
 
-    def draw(self):
-        for x in self.heroes:
-            x.draw()
+    def draw(self, dt):
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
+        glLoadIdentity() # Reset The View
+
+	for i in self.heroes:
+	    i.draw()
+
+        if self.grid:
+            self.show_grid(self.window.width, self.window.height)
+  
+        # Draw a square (quadrilateral)
+        glBegin(GL_QUADS)                   # Start drawing a 4 sided polygon
+        glVertex3f(-1.0, 1.0, 0.0)          # Top Left
+        glVertex3f(1.0, 1.0, 0.0)           # Top Right
+        glVertex3f(1.0, -1.0, 0.0)          # Bottom Right
+        glVertex3f(-1.0, -1.0, 0.0)         # Bottom Left
+        glEnd() 
+
+        fps.draw()

@@ -15,19 +15,15 @@ def on_key_press(symbol, modifiers):
             print 'Grid ativada'
             game.grid = True
 
-@window.event
-def update():
-    game.update()
+def update(dt):
+    game.update(dt)
+    game.draw(dt)
 
 
-@window.event
-def on_draw():
-    glClear(GL_COLOR_BUFFER_BIT)
-    if game.grid:
-        game.show_grid(window.width, window.height)
-    game.draw()
+# schedule the update function, 60 times per second
+pyglet.clock.schedule_interval(update, 1.0/60.0)
 
-game = Game()
+game = Game(window)
 pyglet.app.run()
 
 

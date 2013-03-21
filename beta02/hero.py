@@ -28,13 +28,14 @@ class Hero:
         else:
             self.position.x, self.position.y = 100, 100
 
-    def update(self):
-        print 'State: %s' % state
+    def update(self, dt):
+        print 'State: %s' % self.state
         if self.state is 'BORNING':
             if self.timeout <= 0:
                 self.state = states[1]
             else:
-                self.timeout -= timeout
+                self.timeout -= 0.05 
+	    print 'time to live: %s' % self.timeout	
 
         if self.state is 'STOP':
             if self.hp > 3:
@@ -76,11 +77,13 @@ class Hero:
         return df
 
     def draw(self):
-        # Draw some stuff
-        glBegin(GL_TRIANGLES)
-        x = self.position.x
-        y = self.position.y
-        glVertex2i(x, y)
-        glVertex2i(x-10 , y-10)
-        glVertex2i(x+10, x+10)
-        glEnd()
+	# Draw a square (quadrilateral)
+	pyglet.graphics.draw_indexed(4, pyglet.gl.GL_TRIANGLES,
+				    [0, 1, 2, 0, 2, 3],
+			            ('v2i',
+				    (100, 100,
+          		            120, 100,
+                                    120, 120,
+			            100, 120)
+				    )
+     				    )
