@@ -33,9 +33,10 @@ class Hero:
         if self.state is 'BORNING':
             if self.timeout <= 0:
                 self.state = states[1]
+                self.timetou = 0
             else:
-                self.timeout -= 0.05 
-	    print 'time to live: %s' % self.timeout	
+                self.timeout -= 0.05
+            print 'time to live: %s' % self.timeout
 
         if self.state is 'STOP':
             if self.hp > 3:
@@ -77,13 +78,19 @@ class Hero:
         return df
 
     def draw(self):
-	# Draw a square (quadrilateral)
-	pyglet.graphics.draw_indexed(4, pyglet.gl.GL_TRIANGLES,
-				    [0, 1, 2, 0, 2, 3],
-			            ('v2i',
-				    (100, 100,
-          		            120, 100,
-                                    120, 120,
-			            100, 120)
-				    )
-     				    )
+        # Draw a square (quadrilateral)
+        if not self.state is 'BORNING':
+            glBegin(GL_TRIANGLES)
+            glVertex2i(100, 100)
+            glVertex2i(120, 100)
+            glVertex2i(120, 120)
+            glEnd()
+
+
+        #pyglet.graphics.draw_indexed(4, pyglet.gl.GL_TRIANGLES,
+        #                [0, 1, 2, 0, 2, 3],
+        #                ('v2i',(100, 100,
+        #                        120, 100,
+        #                        120, 120,
+        #                        100, 120)
+        #                ))

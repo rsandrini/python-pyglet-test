@@ -1,4 +1,4 @@
-from pyglet import clock, font, image, window
+from pyglet import clock, window
 from pyglet.gl import *
 from hero import *
 
@@ -33,6 +33,9 @@ class Game:
             glVertex2i(xMax, y)
             glEnd()
 
+    def castle(self):
+        pass
+
     def update(self, dt):
         self.dt = dt
         for i in self.heroes:
@@ -41,19 +44,25 @@ class Game:
     def draw(self, dt):
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
         glLoadIdentity() # Reset The View
+        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE)
+        fps.draw()
 
-	for i in self.heroes:
-	    i.draw()
+        for i in self.heroes:
+            i.draw()
 
         if self.grid:
             self.show_grid(self.window.width, self.window.height)
-  
-        # Draw a square (quadrilateral)
-        glBegin(GL_QUADS)                   # Start drawing a 4 sided polygon
-        glVertex3f(-1.0, 1.0, 0.0)          # Top Left
-        glVertex3f(1.0, 1.0, 0.0)           # Top Right
-        glVertex3f(1.0, -1.0, 0.0)          # Bottom Right
-        glVertex3f(-1.0, -1.0, 0.0)         # Bottom Left
-        glEnd() 
 
-        fps.draw()
+        ## CASTLE
+        glBegin(GL_TRIANGLES)
+        glVertex2i(370, 270)
+        glVertex2i(430, 370)
+        glVertex2i(430, 270)
+        glEnd()
+
+        ##CAVES
+        #glBegin(GL_
+
+        ## ENEMYS
+
+
