@@ -15,6 +15,12 @@ class Hero:
     destination = vector2(0,0)
     num_attacks = 0
 
+    #movimentation
+    mass = 2
+    velocity = vecotr2(0,0)
+    maxForce = 2
+    maxSpeed = 2
+
     def __init__(self):
         self.position.x = 100
         self.position.y = 100
@@ -33,7 +39,7 @@ class Hero:
         if self.state is 'BORNING':
             if self.timeout <= 0:
                 self.state = states[1]
-                self.timetou = 0
+                self.timeout = 0
             else:
                 self.timeout -= 0.05
             print 'time to live: %s' % self.timeout

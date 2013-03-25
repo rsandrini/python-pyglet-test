@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="14173.228"
+   height="17716.535"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47pre4 r22446"
+   sodipodi:docname="Player_demo.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 8858.2676 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="14173.228 : 8858.2676 : 1"
+       inkscape:persp3d-origin="7086.6138 : 5905.5117 : 1"
+       id="perspective149" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path10779"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <inkscape:perspective
+       id="perspective2869"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible">
+      <path
+         id="path10779-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.028284271"
+     inkscape:cx="-2933.1748"
+     inkscape:cy="7559.8546"
+     inkscape:document-units="m"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="822"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     units="m" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Model"
+     transform="translate(0,16664.536)"
+     style="display:inline">
+    <g
+       id="Vision_Cone"
+       inkscape:label="Sensors">
+      <path
+         inkscape:transform-center-y="4110.1013"
+         inkscape:transform-center-x="-65.327607"
+         sodipodi:end="2.7925268"
+         sodipodi:start="0"
+         transform="matrix(0.9855342,0.16947667,-0.16947667,0.9855342,2036.7059,-17596.875)"
+         d="M 15225.634,11520.418 A 8126.5654,8126.5654 0 0 1 -537.4052,14299.867 l 7636.4736,-2779.449 z"
+         sodipodi:ry="8126.5654"
+         sodipodi:rx="8126.5654"
+         sodipodi:cy="11520.418"
+         sodipodi:cx="7099.0684"
+         id="path10683"
+         style="fill:#afe9dd;stroke:#000000;stroke-width:70.86614227;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         xml:space="preserve"
+         style="font-size:857.95251465px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arab;-inkscape-font-specification:Arab"
+         x="14873.611"
+         y="-1598.0737"
+         id="text10670-9"><tspan
+           sodipodi:role="line"
+           id="tspan10672-3"
+           x="14873.611"
+           y="-1598.0737">Sensor:</tspan><tspan
+           id="tspan10712"
+           sodipodi:role="line"
+           x="14873.611"
+           y="-525.63306">Aperture=160 deg</tspan><tspan
+           id="tspan10710"
+           sodipodi:role="line"
+           x="14873.611"
+           y="546.80756">Range=1 km</tspan></text>
+    </g>
+    <g
+       id="Collision_Shapes"
+       inkscape:label="CShapes">
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:140.96235657;stroke-miterlimit:4;stroke-dasharray:281.92472771, 281.92472771;stroke-dashoffset:0"
+         id="path10650"
+         sodipodi:cx="6927.8193"
+         sodipodi:cy="8951.6768"
+         sodipodi:rx="6087.1401"
+         sodipodi:ry="8142.1333"
+         d="m 13014.959,8951.6768 a 6087.1401,8142.1333 0 1 1 -12174.2798,0 6087.1401,8142.1333 0 1 1 12174.2798,0 z"
+         transform="matrix(0.58143084,0,0,0.43468351,3047.8243,-11191.605)" />
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:169.71514893;stroke-miterlimit:4;stroke-dasharray:339.43029964, 339.43029964;stroke-dashoffset:0"
+         id="path10652"
+         sodipodi:cx="6927.8193"
+         sodipodi:cy="8951.6768"
+         sodipodi:rx="6087.1401"
+         sodipodi:ry="8142.1333"
+         d="m 13014.959,8951.6768 a 6087.1401,8142.1333 0 1 1 -12174.2798,0 6087.1401,8142.1333 0 1 1 12174.2798,0 z"
+         transform="matrix(0.48292604,0,0,0.36104034,3714.6796,-16059.062)" />
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:297.15692139;stroke-miterlimit:4;stroke-dasharray:594.31383564, 594.31383564;stroke-dashoffset:0"
+         id="path10654"
+         sodipodi:cx="6927.8193"
+         sodipodi:cy="8951.6768"
+         sodipodi:rx="6087.1401"
+         sodipodi:ry="8142.1333"
+         d="m 13014.959,8951.6768 a 6087.1401,8142.1333 0 1 1 -12174.2798,0 6087.1401,8142.1333 0 1 1 12174.2798,0 z"
+         transform="matrix(0.27581342,0,0,0.20620087,759.30499,-11497.09)" />
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:297.15692139;stroke-miterlimit:4;stroke-dasharray:594.31383564, 594.31383564;stroke-dashoffset:0"
+         id="path10656"
+         sodipodi:cx="6927.8193"
+         sodipodi:cy="8951.6768"
+         sodipodi:rx="6087.1401"
+         sodipodi:ry="8142.1333"
+         d="m 13014.959,8951.6768 a 6087.1401,8142.1333 0 1 1 -12174.2798,0 6087.1401,8142.1333 0 1 1 12174.2798,0 z"
+         transform="matrix(0.27581342,0,0,0.20620087,9539.7319,-11559.363)" />
+      <path
+         transform="matrix(0.27581342,0,0,0.20620087,5211.791,-4273.4768)"
+         d="m 13014.959,8951.6768 a 6087.1401,8142.1333 0 1 1 -12174.2798,0 6087.1401,8142.1333 0 1 1 12174.2798,0 z"
+         sodipodi:ry="8142.1333"
+         sodipodi:rx="6087.1401"
+         sodipodi:cy="8951.6768"
+         sodipodi:cx="6927.8193"
+         id="path10138"
+         style="fill:none;stroke:#000000;stroke-width:297.15692139;stroke-miterlimit:4;stroke-dasharray:594.31383564, 594.31383564;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         id="text10670"
+         y="-14960.316"
+         x="9939.4014"
+         style="font-size:1198.29614258px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arab;-inkscape-font-specification:Arab"
+         xml:space="preserve"><tspan
+           y="-14960.316"
+           x="9939.4014"
+           id="tspan10672"
+           sodipodi:role="line">Shape</tspan></text>
+    </g>
+    <g
+       id="Physics"
+       inkscape:label="Physics">
+      <path
+         transform="translate(36.61377,-16464.536)"
+         d="m 8050,7616.5352 a 1000,1000 0 1 1 -2000,0 1000,1000 0 1 1 2000,0 z"
+         sodipodi:ry="1000"
+         sodipodi:rx="1000"
+         sodipodi:cy="7616.5352"
+         sodipodi:cx="7050"
+         id="path10721"
+         style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:70.86614227;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <text
+         id="text10670-9-9"
+         y="-8827.2764"
+         x="8294.8721"
+         style="font-size:686.21307373px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:Arab;-inkscape-font-specification:Arab"
+         xml:space="preserve"><tspan
+           y="-8827.2764"
+           x="8294.8721"
+           sodipodi:role="line"
+           id="tspan10712-0">Mass = 2 kg</tspan><tspan
+           id="tspan10754"
+           y="-7969.5103"
+           x="8294.8721"
+           sodipodi:role="line">MaxForce = 120 kN</tspan><tspan
+           id="tspan10758"
+           y="-7111.7437"
+           x="8294.8721"
+           sodipodi:role="line">DragCoeffiecient = 1</tspan><tspan
+           id="tspan10760"
+           y="-6253.9775"
+           x="8294.8721"
+           sodipodi:role="line">EffectiveRadius = 2 m</tspan></text>
+    </g>
+    <g
+       id="g2853">
+      <path
+         inkscape:label="ForwardVector"
+         id="path10771"
+         d="m 7086.6138,-8848.0008 0,7099.9998"
+         style="fill:none;stroke:#000000;stroke-width:70.86614227;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)" />
+      <text
+         id="text10670-9-4"
+         y="-1345.9438"
+         x="7332.0869"
+         style="font-size:857.95251465px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arab;-inkscape-font-specification:Arab"
+         xml:space="preserve"><tspan
+           y="-1345.9438"
+           x="7332.0869"
+           sodipodi:role="line"
+           id="tspan10710-9">Forward Vector</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="View"
+     transform="translate(0,-10629.92)"
+     style="opacity:0.75903614;display:none"
+     sodipodi:insensitive="true">
+    <image
+       y="11214.715"
+       x="536.06055"
+       id="image10134"
+       height="16546.945"
+       width="13101.106"
+       xlink:href="file:///home/juanpi/Projects/Eze/steeringbehaviors/steeringbehaviors/src/GameData/Avatar.png" />
+    <path
+       id="Forward_Vector_View"
+       d="m 7050,18446.455 0,3811.953"
+       style="fill:none;stroke:#000000;stroke-width:70.86614227;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend);display:inline"
+       inkscape:label="ForwardVector"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Controller"
+     transform="translate(0,-10629.92)"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       id="Intelligence"
+       inkscape:label="Intelligence">
+      <text
+         id="text13067"
+         y="9488.1133"
+         x="4119.5039"
+         style="font-size:806.83972168px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arab;-inkscape-font-specification:Arab"
+         xml:space="preserve"><tspan
+           y="9488.1133"
+           x="4119.5039"
+           id="tspan13069"
+           sodipodi:role="line">Movement = Mouse</tspan><tspan
+           id="tspan13071"
+           y="10496.663"
+           x="4119.5039"
+           sodipodi:role="line">Action = Keyboard</tspan></text>
+    </g>
+  </g>
+</svg>

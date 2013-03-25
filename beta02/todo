@@ -1,0 +1,25 @@
+-> draw primitives 
+ -- caves
+ -- enemy
+
+-> Apply behaviours
+ -- Hero
+ -- Enemies
+
+-> Apply click in castle
+ 
+-> Draw Info
+ -- Draw list of heroes
+ -- Draw map discoverd
+ -- Total gold
+ -- Time played
+
+-> apply click in map 
+ -- Flags
+
+-> Read LUA script
+ -- load difficulty
+ -- load record
+
+-> Write LUA records
+ -- Save record 

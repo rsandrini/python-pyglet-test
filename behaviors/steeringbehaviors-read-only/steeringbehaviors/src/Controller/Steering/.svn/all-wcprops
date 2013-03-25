@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/228/trunk/steeringbehaviors/src/Controller/Steering
+END
+SteerForTrack.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/218/trunk/steeringbehaviors/src/Controller/Steering/SteerForTrack.py
+END
+SteerForEvasion.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/207/trunk/steeringbehaviors/src/Controller/Steering/SteerForEvasion.py
+END
+SteerForSeparation.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/178/trunk/steeringbehaviors/src/Controller/Steering/SteerForSeparation.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/82/trunk/steeringbehaviors/src/Controller/Steering/__init__.py
+END
+SteerForOffset.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/212/trunk/steeringbehaviors/src/Controller/Steering/SteerForOffset.py
+END
+SteerForSeek.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/210/trunk/steeringbehaviors/src/Controller/Steering/SteerForSeek.py
+END
+SteerForCohesion.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206/trunk/steeringbehaviors/src/Controller/Steering/SteerForCohesion.py
+END
+SteerForArrive.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/210/trunk/steeringbehaviors/src/Controller/Steering/SteerForArrive.py
+END
+SteerForAlign.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/203/trunk/steeringbehaviors/src/Controller/Steering/SteerForAlign.py
+END
+SteerForFlee.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/228/trunk/steeringbehaviors/src/Controller/Steering/SteerForFlee.py
+END
+SteerForPursuit.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/212/trunk/steeringbehaviors/src/Controller/Steering/SteerForPursuit.py
+END
+SteerController.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/218/trunk/steeringbehaviors/src/Controller/Steering/SteerController.py
+END
+SteerForFlock.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/201/trunk/steeringbehaviors/src/Controller/Steering/SteerForFlock.py
+END
+SteerForMCamouflage.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/218/trunk/steeringbehaviors/src/Controller/Steering/SteerForMCamouflage.py
+END

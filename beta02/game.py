@@ -54,11 +54,13 @@ class Game:
             self.show_grid(self.window.width, self.window.height)
 
         ## CASTLE
-        glBegin(GL_TRIANGLES)
-        glVertex2i(370, 270)
-        glVertex2i(430, 370)
-        glVertex2i(430, 270)
+        glBegin(GL_QUADS)
+        glVertex3f(380, 280, 0.0)
+        glVertex3f(380, 320, 0.0)
+        glVertex3f(420, 320, 0.0)
+        glVertex3f(420, 280, 0.0)
         glEnd()
+
 
         ##CAVES
         #glBegin(GL_

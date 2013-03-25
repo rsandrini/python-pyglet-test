@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/239/trunk/steeringbehaviors/src/Model
+END
+caexplosion.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/238/trunk/steeringbehaviors/src/Model/caexplosion.py
+END
+caexplosiontest.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/238/trunk/steeringbehaviors/src/Model/caexplosiontest.py
+END
+integrators.trash
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/189/trunk/steeringbehaviors/src/Model/integrators.trash
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/24/trunk/steeringbehaviors/src/Model/__init__.py
+END
+Model.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/239/trunk/steeringbehaviors/src/Model/Model.py
+END
